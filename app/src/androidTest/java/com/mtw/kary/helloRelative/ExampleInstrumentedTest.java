@@ -1,4 +1,4 @@
-package com.mtw.kary.hellotoast;
+package com.mtw.kary.helloRelative;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mtw.kary.hellotoast", appContext.getPackageName());
+        assertEquals("com.mtw.kary.helloRelative", appContext.getPackageName());
     }
 }
